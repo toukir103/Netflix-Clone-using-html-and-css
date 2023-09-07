@@ -9,6 +9,8 @@ img {
 }
 a {
     text-decoration: none;
+    display: block;
+    color: #B3B3B3;
 }
 body {
     background-color: #000;
@@ -47,6 +49,7 @@ body {
     margin-right: 10px;
     box-shadow: 2px 2px 2px #000;
     cursor: pointer;
+
 }
 .button_1 img {
     width: 10px;
@@ -186,12 +189,32 @@ body {
 .text-1 p {
     font-size: 25px;
     padding-right: 200px;
+
 }
-/* section_5 */
-.section_6 h1 {
-    text-align: center;
+
+.contener_9{
     border-top: 10px solid #232323;
-    padding-top: 50px;
-    font-weight: bold;
-    font-size: 40px;
+    padding-left: 100px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+.fotter_head{
+    padding-bottom: 30px;
+}
+.fotter_section{
+    padding-right: 100px;
+}
+.btn btn-secondary{
+    width: 80px;
+}
+#button{
+ background-color: transparent;
+ margin-top: 20px;
+ margin-bottom: 30px;
+}
+.last_fotter{
+    color: #B3B3B3;
+}
+#contener a{
+  margin: 5px;
 }
